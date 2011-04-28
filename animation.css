@@ -1,0 +1,2496 @@
+
+@-webkit-keyframes enemy0 {
+  0% {
+    top: 375.633102278px;
+    left: 681.000881447px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 249.608573714px;
+    left: 161.411364387px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy0{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy0;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0s;
+}
+
+
+@-webkit-keyframes enemy1 {
+  0% {
+    top: 498px;
+    left: 1000px;
+  }
+  20% {
+    top: 138px;
+    left: 780px;
+  }
+  40% {
+    top: 498px;
+    left: 560px;
+  }
+  60% {
+    top: 138px;
+    left: 340px;
+  }
+  80% {
+    top: 498px;
+    left: 120px;
+  }
+  100% {
+    top: 138px;
+    left: -100px;
+  }
+}
+input#enemy1{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy1;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 0s;
+}
+
+
+@-webkit-keyframes enemy2 {
+  0% {
+    top: 430px;
+    left: 1000px;
+	-webkit-transform: scale(2.36697720403);
+  }
+  100% {
+    top: 394px;
+    left: -100px;
+	-webkit-transform: scale(2.90847870963);
+  }
+}
+input#enemy2{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy2;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 1s;
+}
+
+
+@-webkit-keyframes enemy3 {
+  0% {
+    top: 63.5299740195px;
+    left: 14.1148221106px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 526.292951438px;
+    left: 893.760277699px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy3{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy3;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 3s;
+}
+
+
+@-webkit-keyframes enemy4 {
+  0% {
+    top: 503.11801864px;
+    left: 825.128467697px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 219.595764534px;
+    left: 213.464184507px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy4{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy4;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 3s;
+}
+
+
+@-webkit-keyframes enemy5 {
+  0% {
+    top: 462px;
+    left: 1000px;
+	-webkit-transform: scale(2.29441422786);
+  }
+  100% {
+    top: 482px;
+    left: -100px;
+	-webkit-transform: scale(2.70390801855);
+  }
+}
+input#enemy5{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy5;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 3s;
+}
+
+
+@-webkit-keyframes enemy6 {
+  0% {
+    top: 135.293039254px;
+    left: 644.097254788px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 572.327994507px;
+    left: 722.659141759px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy6{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy6;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 4s;
+}
+
+
+@-webkit-keyframes enemy7 {
+  0% {
+    top: 577px;
+    left: -100px;
+	-webkit-transform: scale(2.90118631514);
+  }
+  100% {
+    top: 525px;
+    left: 1000px;
+	-webkit-transform: scale(2.84188566816);
+  }
+}
+input#enemy7{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy7;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 4s;
+}
+
+
+@-webkit-keyframes enemy8 {
+  0% {
+    top: 465px;
+    left: -100px;
+  }
+  20% {
+    top: 16px;
+    left: 120px;
+  }
+  40% {
+    top: 465px;
+    left: 340px;
+  }
+  60% {
+    top: 16px;
+    left: 560px;
+  }
+  80% {
+    top: 465px;
+    left: 780px;
+  }
+  100% {
+    top: 16px;
+    left: 1000px;
+  }
+}
+input#enemy8{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy8;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 5s;
+}
+
+
+@-webkit-keyframes enemy9 {
+  0% {
+    top: 544px;
+    left: -100px;
+  }
+  20% {
+    top: 218px;
+    left: 120px;
+  }
+  40% {
+    top: 544px;
+    left: 340px;
+  }
+  60% {
+    top: 218px;
+    left: 560px;
+  }
+  80% {
+    top: 544px;
+    left: 780px;
+  }
+  100% {
+    top: 218px;
+    left: 1000px;
+  }
+}
+input#enemy9{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy9;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 7s;
+}
+
+
+@-webkit-keyframes enemy10 {
+  0% {
+    top: 499px;
+    left: -100px;
+  }
+  20% {
+    top: 95px;
+    left: 120px;
+  }
+  40% {
+    top: 499px;
+    left: 340px;
+  }
+  60% {
+    top: 95px;
+    left: 560px;
+  }
+  80% {
+    top: 499px;
+    left: 780px;
+  }
+  100% {
+    top: 95px;
+    left: 1000px;
+  }
+}
+input#enemy10{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy10;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 9s;
+}
+
+
+@-webkit-keyframes enemy11 {
+  0% {
+    top: 556px;
+    left: -100px;
+  }
+  20% {
+    top: 253px;
+    left: 120px;
+  }
+  40% {
+    top: 556px;
+    left: 340px;
+  }
+  60% {
+    top: 253px;
+    left: 560px;
+  }
+  80% {
+    top: 556px;
+    left: 780px;
+  }
+  100% {
+    top: 253px;
+    left: 1000px;
+  }
+}
+input#enemy11{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy11;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 10s;
+}
+
+
+@-webkit-keyframes enemy12 {
+  0% {
+    top: 81.839517506px;
+    left: 514.284413758px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 50.7002194812px;
+    left: 293.323122432px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy12{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy12;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 12s;
+}
+
+
+@-webkit-keyframes enemy13 {
+  0% {
+    top: 167.009519976px;
+    left: 323.878697486px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 241.142358021px;
+    left: 644.89380283px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy13{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy13;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 12s;
+}
+
+
+@-webkit-keyframes enemy14 {
+  0% {
+    top: 59.8733056732px;
+    left: 280.638595548px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 194.699095203px;
+    left: 398.452549076px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy14{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy14;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 13s;
+}
+
+
+@-webkit-keyframes enemy15 {
+  0% {
+    top: 330.460425388px;
+    left: 844.873607096px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 61.5576105143px;
+    left: 478.92429814px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy15{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy15;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 14s;
+}
+
+
+@-webkit-keyframes enemy16 {
+  0% {
+    top: 587.647752676px;
+    left: 809.603334986px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 315.607225778px;
+    left: 65.9202337994px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy16{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy16;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 15s;
+}
+
+
+@-webkit-keyframes enemy17 {
+  0% {
+    top: 361px;
+    left: 1000px;
+  }
+  20% {
+    top: 227px;
+    left: 780px;
+  }
+  40% {
+    top: 361px;
+    left: 560px;
+  }
+  60% {
+    top: 227px;
+    left: 340px;
+  }
+  80% {
+    top: 361px;
+    left: 120px;
+  }
+  100% {
+    top: 227px;
+    left: -100px;
+  }
+}
+input#enemy17{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy17;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 16s;
+}
+
+
+@-webkit-keyframes enemy18 {
+  0% {
+    top: 259.675461861px;
+    left: 252.631566684px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 375.909308514px;
+    left: 885.606502418px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy18{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy18;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 18s;
+}
+
+
+@-webkit-keyframes enemy19 {
+  0% {
+    top: 82px;
+    left: 1000px;
+	-webkit-transform: scale(2.88598949717);
+  }
+  100% {
+    top: 384px;
+    left: -100px;
+	-webkit-transform: scale(2.63076554277);
+  }
+}
+input#enemy19{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy19;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 19s;
+}
+
+
+@-webkit-keyframes enemy20 {
+  0% {
+    top: 74.8203303353px;
+    left: 40.872550789px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 227.459062124px;
+    left: 573.605137655px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy20{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy20;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 20s;
+}
+
+
+@-webkit-keyframes enemy21 {
+  0% {
+    top: 320px;
+    left: 1000px;
+  }
+  20% {
+    top: 108px;
+    left: 780px;
+  }
+  40% {
+    top: 320px;
+    left: 560px;
+  }
+  60% {
+    top: 108px;
+    left: 340px;
+  }
+  80% {
+    top: 320px;
+    left: 120px;
+  }
+  100% {
+    top: 108px;
+    left: -100px;
+  }
+}
+input#enemy21{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy21;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 21s;
+}
+
+
+@-webkit-keyframes enemy22 {
+  0% {
+    top: 337px;
+    left: -100px;
+  }
+  20% {
+    top: 190px;
+    left: 120px;
+  }
+  40% {
+    top: 337px;
+    left: 340px;
+  }
+  60% {
+    top: 190px;
+    left: 560px;
+  }
+  80% {
+    top: 337px;
+    left: 780px;
+  }
+  100% {
+    top: 190px;
+    left: 1000px;
+  }
+}
+input#enemy22{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy22;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 22s;
+}
+
+
+@-webkit-keyframes enemy23 {
+  0% {
+    top: 401.740832388px;
+    left: 289.217639819px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 532.382658728px;
+    left: 57.004692041px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy23{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy23;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 23s;
+}
+
+
+@-webkit-keyframes enemy24 {
+  0% {
+    top: 218px;
+    left: 1000px;
+	-webkit-transform: scale(2.55784275906);
+  }
+  100% {
+    top: 325px;
+    left: -100px;
+	-webkit-transform: scale(2.38987990426);
+  }
+}
+input#enemy24{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy24;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 24s;
+}
+
+
+@-webkit-keyframes enemy25 {
+  0% {
+    top: 300px;
+    left: 1000px;
+  }
+  20% {
+    top: 98px;
+    left: 780px;
+  }
+  40% {
+    top: 300px;
+    left: 560px;
+  }
+  60% {
+    top: 98px;
+    left: 340px;
+  }
+  80% {
+    top: 300px;
+    left: 120px;
+  }
+  100% {
+    top: 98px;
+    left: -100px;
+  }
+}
+input#enemy25{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy25;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 26s;
+}
+
+
+@-webkit-keyframes enemy26 {
+  0% {
+    top: 272px;
+    left: -100px;
+	-webkit-transform: scale(2.49918328983);
+  }
+  100% {
+    top: 583px;
+    left: 1000px;
+	-webkit-transform: scale(2.33475506508);
+  }
+}
+input#enemy26{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy26;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 28s;
+}
+
+
+@-webkit-keyframes enemy27 {
+  0% {
+    top: 538px;
+    left: 1000px;
+	-webkit-transform: scale(2.91215325178);
+  }
+  100% {
+    top: 584px;
+    left: -100px;
+	-webkit-transform: scale(2.16020803804);
+  }
+}
+input#enemy27{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy27;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 30s;
+}
+
+
+@-webkit-keyframes enemy28 {
+  0% {
+    top: 425px;
+    left: -100px;
+  }
+  20% {
+    top: 119px;
+    left: 120px;
+  }
+  40% {
+    top: 425px;
+    left: 340px;
+  }
+  60% {
+    top: 119px;
+    left: 560px;
+  }
+  80% {
+    top: 425px;
+    left: 780px;
+  }
+  100% {
+    top: 119px;
+    left: 1000px;
+  }
+}
+input#enemy28{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy28;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 31s;
+}
+
+
+@-webkit-keyframes enemy29 {
+  0% {
+    top: 514px;
+    left: -100px;
+	-webkit-transform: scale(2.63678155156);
+  }
+  100% {
+    top: 525px;
+    left: 1000px;
+	-webkit-transform: scale(2.2002723554);
+  }
+}
+input#enemy29{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy29;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 32s;
+}
+
+
+@-webkit-keyframes enemy30 {
+  0% {
+    top: 571px;
+    left: 1000px;
+  }
+  20% {
+    top: 53px;
+    left: 780px;
+  }
+  40% {
+    top: 571px;
+    left: 560px;
+  }
+  60% {
+    top: 53px;
+    left: 340px;
+  }
+  80% {
+    top: 571px;
+    left: 120px;
+  }
+  100% {
+    top: 53px;
+    left: -100px;
+  }
+}
+input#enemy30{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy30;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 33s;
+}
+
+
+@-webkit-keyframes enemy31 {
+  0% {
+    top: 37px;
+    left: 1000px;
+	-webkit-transform: scale(2.70438876572);
+  }
+  100% {
+    top: 267px;
+    left: -100px;
+	-webkit-transform: scale(2.59297567236);
+  }
+}
+input#enemy31{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy31;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 34s;
+}
+
+
+@-webkit-keyframes enemy32 {
+  0% {
+    top: 281px;
+    left: -100px;
+	-webkit-transform: scale(2.98942374507);
+  }
+  100% {
+    top: 449px;
+    left: 1000px;
+	-webkit-transform: scale(2.22024885016);
+  }
+}
+input#enemy32{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy32;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 36s;
+}
+
+
+@-webkit-keyframes enemy33 {
+  0% {
+    top: 437.82986339px;
+    left: 239.825110115px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 342.358295454px;
+    left: 531.245639002px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy33{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy33;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 37s;
+}
+
+
+@-webkit-keyframes enemy34 {
+  0% {
+    top: 529.550692871px;
+    left: 81.6750930715px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 218.155467978px;
+    left: 351.462912643px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy34{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy34;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 38s;
+}
+
+
+@-webkit-keyframes enemy35 {
+  0% {
+    top: 54px;
+    left: 1000px;
+	-webkit-transform: scale(2.65080795839);
+  }
+  100% {
+    top: 390px;
+    left: -100px;
+	-webkit-transform: scale(2.93040385247);
+  }
+}
+input#enemy35{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy35;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 39s;
+}
+
+
+@-webkit-keyframes enemy36 {
+  0% {
+    top: 189.597654345px;
+    left: 496.499200334px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 27.9419933235px;
+    left: 608.67055907px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy36{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy36;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 40s;
+}
+
+
+@-webkit-keyframes enemy37 {
+  0% {
+    top: 380px;
+    left: -100px;
+  }
+  20% {
+    top: 53px;
+    left: 120px;
+  }
+  40% {
+    top: 380px;
+    left: 340px;
+  }
+  60% {
+    top: 53px;
+    left: 560px;
+  }
+  80% {
+    top: 380px;
+    left: 780px;
+  }
+  100% {
+    top: 53px;
+    left: 1000px;
+  }
+}
+input#enemy37{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy37;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 40s;
+}
+
+
+@-webkit-keyframes enemy38 {
+  0% {
+    top: 320px;
+    left: -100px;
+  }
+  20% {
+    top: 219px;
+    left: 120px;
+  }
+  40% {
+    top: 320px;
+    left: 340px;
+  }
+  60% {
+    top: 219px;
+    left: 560px;
+  }
+  80% {
+    top: 320px;
+    left: 780px;
+  }
+  100% {
+    top: 219px;
+    left: 1000px;
+  }
+}
+input#enemy38{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy38;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 42s;
+}
+
+
+@-webkit-keyframes enemy39 {
+  0% {
+    top: 556px;
+    left: -100px;
+  }
+  20% {
+    top: 295px;
+    left: 120px;
+  }
+  40% {
+    top: 556px;
+    left: 340px;
+  }
+  60% {
+    top: 295px;
+    left: 560px;
+  }
+  80% {
+    top: 556px;
+    left: 780px;
+  }
+  100% {
+    top: 295px;
+    left: 1000px;
+  }
+}
+input#enemy39{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy39;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 44s;
+}
+
+
+@-webkit-keyframes enemy40 {
+  0% {
+    top: 559.811446518px;
+    left: 49.3577772284px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 570.189735577px;
+    left: 586.570380904px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy40{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy40;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 46s;
+}
+
+
+@-webkit-keyframes enemy41 {
+  0% {
+    top: 472px;
+    left: 1000px;
+  }
+  20% {
+    top: 211px;
+    left: 780px;
+  }
+  40% {
+    top: 472px;
+    left: 560px;
+  }
+  60% {
+    top: 211px;
+    left: 340px;
+  }
+  80% {
+    top: 472px;
+    left: 120px;
+  }
+  100% {
+    top: 211px;
+    left: -100px;
+  }
+}
+input#enemy41{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy41;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 46s;
+}
+
+
+@-webkit-keyframes enemy42 {
+  0% {
+    top: 518px;
+    left: 1000px;
+  }
+  20% {
+    top: 44px;
+    left: 780px;
+  }
+  40% {
+    top: 518px;
+    left: 560px;
+  }
+  60% {
+    top: 44px;
+    left: 340px;
+  }
+  80% {
+    top: 518px;
+    left: 120px;
+  }
+  100% {
+    top: 44px;
+    left: -100px;
+  }
+}
+input#enemy42{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy42;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 48s;
+}
+
+
+@-webkit-keyframes enemy43 {
+  0% {
+    top: 427.804986039px;
+    left: 827.795556168px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 472.990757825px;
+    left: 319.952424048px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy43{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy43;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 50s;
+}
+
+
+@-webkit-keyframes enemy44 {
+  0% {
+    top: 327px;
+    left: 1000px;
+	-webkit-transform: scale(2.14639664818);
+  }
+  100% {
+    top: 503px;
+    left: -100px;
+	-webkit-transform: scale(2.94928290114);
+  }
+}
+input#enemy44{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy44;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 51s;
+}
+
+
+@-webkit-keyframes enemy45 {
+  0% {
+    top: 525px;
+    left: -100px;
+  }
+  20% {
+    top: 61px;
+    left: 120px;
+  }
+  40% {
+    top: 525px;
+    left: 340px;
+  }
+  60% {
+    top: 61px;
+    left: 560px;
+  }
+  80% {
+    top: 525px;
+    left: 780px;
+  }
+  100% {
+    top: 61px;
+    left: 1000px;
+  }
+}
+input#enemy45{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy45;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 52s;
+}
+
+
+@-webkit-keyframes enemy46 {
+  0% {
+    top: 237px;
+    left: -100px;
+	-webkit-transform: scale(2.70206327807);
+  }
+  100% {
+    top: 25px;
+    left: 1000px;
+	-webkit-transform: scale(2.58927296938);
+  }
+}
+input#enemy46{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy46;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 54s;
+}
+
+
+@-webkit-keyframes enemy47 {
+  0% {
+    top: 451px;
+    left: -100px;
+  }
+  20% {
+    top: 2px;
+    left: 120px;
+  }
+  40% {
+    top: 451px;
+    left: 340px;
+  }
+  60% {
+    top: 2px;
+    left: 560px;
+  }
+  80% {
+    top: 451px;
+    left: 780px;
+  }
+  100% {
+    top: 2px;
+    left: 1000px;
+  }
+}
+input#enemy47{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy47;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 56s;
+}
+
+
+@-webkit-keyframes enemy48 {
+  0% {
+    top: 389px;
+    left: -100px;
+  }
+  20% {
+    top: 241px;
+    left: 120px;
+  }
+  40% {
+    top: 389px;
+    left: 340px;
+  }
+  60% {
+    top: 241px;
+    left: 560px;
+  }
+  80% {
+    top: 389px;
+    left: 780px;
+  }
+  100% {
+    top: 241px;
+    left: 1000px;
+  }
+}
+input#enemy48{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy48;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 57s;
+}
+
+
+@-webkit-keyframes enemy49 {
+  0% {
+    top: 18px;
+    left: 1000px;
+	-webkit-transform: scale(2.0775296634);
+  }
+  100% {
+    top: 116px;
+    left: -100px;
+	-webkit-transform: scale(2.97442718469);
+  }
+}
+input#enemy49{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy49;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 58s;
+}
+
+
+@-webkit-keyframes enemy50 {
+  0% {
+    top: 153px;
+    left: -100px;
+	-webkit-transform: scale(2.66052100505);
+  }
+  100% {
+    top: 82px;
+    left: 1000px;
+	-webkit-transform: scale(2.4396125452);
+  }
+}
+input#enemy50{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy50;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 59s;
+}
+
+
+@-webkit-keyframes enemy51 {
+  0% {
+    top: 483.012264377px;
+    left: 752.293777323px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 403.794558832px;
+    left: 146.170579778px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy51{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy51;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 61s;
+}
+
+
+@-webkit-keyframes enemy52 {
+  0% {
+    top: 521px;
+    left: -100px;
+	-webkit-transform: scale(2.7654222425);
+  }
+  100% {
+    top: 291px;
+    left: 1000px;
+	-webkit-transform: scale(2.26749803999);
+  }
+}
+input#enemy52{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy52;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 61s;
+}
+
+
+@-webkit-keyframes enemy53 {
+  0% {
+    top: 361px;
+    left: 1000px;
+  }
+  20% {
+    top: 64px;
+    left: 780px;
+  }
+  40% {
+    top: 361px;
+    left: 560px;
+  }
+  60% {
+    top: 64px;
+    left: 340px;
+  }
+  80% {
+    top: 361px;
+    left: 120px;
+  }
+  100% {
+    top: 64px;
+    left: -100px;
+  }
+}
+input#enemy53{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy53;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 62s;
+}
+
+
+@-webkit-keyframes enemy54 {
+  0% {
+    top: 590px;
+    left: 1000px;
+  }
+  20% {
+    top: 2px;
+    left: 780px;
+  }
+  40% {
+    top: 590px;
+    left: 560px;
+  }
+  60% {
+    top: 2px;
+    left: 340px;
+  }
+  80% {
+    top: 590px;
+    left: 120px;
+  }
+  100% {
+    top: 2px;
+    left: -100px;
+  }
+}
+input#enemy54{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy54;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 64s;
+}
+
+
+@-webkit-keyframes enemy55 {
+  0% {
+    top: 474px;
+    left: 1000px;
+	-webkit-transform: scale(2.39267120196);
+  }
+  100% {
+    top: 380px;
+    left: -100px;
+	-webkit-transform: scale(2.86640798733);
+  }
+}
+input#enemy55{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy55;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 65s;
+}
+
+
+@-webkit-keyframes enemy56 {
+  0% {
+    top: 446px;
+    left: 1000px;
+	-webkit-transform: scale(2.54347787265);
+  }
+  100% {
+    top: 198px;
+    left: -100px;
+	-webkit-transform: scale(2.87837051222);
+  }
+}
+input#enemy56{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy56;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 67s;
+}
+
+
+@-webkit-keyframes enemy57 {
+  0% {
+    top: 126.001931135px;
+    left: 745.7338731px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 515.037918403px;
+    left: 432.583096092px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy57{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy57;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 69s;
+}
+
+
+@-webkit-keyframes enemy58 {
+  0% {
+    top: 217.991968517px;
+    left: 201.308961438px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 290.927962591px;
+    left: 315.718897334px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy58{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy58;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 69s;
+}
+
+
+@-webkit-keyframes enemy59 {
+  0% {
+    top: 186px;
+    left: -100px;
+	-webkit-transform: scale(2.94622655764);
+  }
+  100% {
+    top: 403px;
+    left: 1000px;
+	-webkit-transform: scale(2.05702104619);
+  }
+}
+input#enemy59{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy59;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 70s;
+}
+
+
+@-webkit-keyframes enemy60 {
+  0% {
+    top: 231px;
+    left: -100px;
+	-webkit-transform: scale(2.92288135342);
+  }
+  100% {
+    top: 235px;
+    left: 1000px;
+	-webkit-transform: scale(2.76890197031);
+  }
+}
+input#enemy60{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy60;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 71s;
+}
+
+
+@-webkit-keyframes enemy61 {
+  0% {
+    top: 461px;
+    left: -100px;
+	-webkit-transform: scale(2.29464110483);
+  }
+  100% {
+    top: 519px;
+    left: 1000px;
+	-webkit-transform: scale(2.12876687407);
+  }
+}
+input#enemy61{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy61;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 72s;
+}
+
+
+@-webkit-keyframes enemy62 {
+  0% {
+    top: 530px;
+    left: 1000px;
+	-webkit-transform: scale(2.12400046101);
+  }
+  100% {
+    top: 183px;
+    left: -100px;
+	-webkit-transform: scale(2.84595629192);
+  }
+}
+input#enemy62{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy62;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 74s;
+}
+
+
+@-webkit-keyframes enemy63 {
+  0% {
+    top: 87.1634266261px;
+    left: 36.7755171367px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 407.294843317px;
+    left: 729.170898703px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy63{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy63;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 75s;
+}
+
+
+@-webkit-keyframes enemy64 {
+  0% {
+    top: 21.4028693181px;
+    left: 441.135052773px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 352.611184319px;
+    left: 249.106485001px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy64{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy64;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 76s;
+}
+
+
+@-webkit-keyframes enemy65 {
+  0% {
+    top: 411px;
+    left: 1000px;
+  }
+  20% {
+    top: 125px;
+    left: 780px;
+  }
+  40% {
+    top: 411px;
+    left: 560px;
+  }
+  60% {
+    top: 125px;
+    left: 340px;
+  }
+  80% {
+    top: 411px;
+    left: 120px;
+  }
+  100% {
+    top: 125px;
+    left: -100px;
+  }
+}
+input#enemy65{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy65;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 76s;
+}
+
+
+@-webkit-keyframes enemy66 {
+  0% {
+    top: 101.952189629px;
+    left: 627.823355704px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 273.52329643px;
+    left: 328.623431308px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy66{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy66;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 77s;
+}
+
+
+@-webkit-keyframes enemy67 {
+  0% {
+    top: 405px;
+    left: -100px;
+  }
+  20% {
+    top: 7px;
+    left: 120px;
+  }
+  40% {
+    top: 405px;
+    left: 340px;
+  }
+  60% {
+    top: 7px;
+    left: 560px;
+  }
+  80% {
+    top: 405px;
+    left: 780px;
+  }
+  100% {
+    top: 7px;
+    left: 1000px;
+  }
+}
+input#enemy67{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy67;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-delay: 78s;
+}
+
+
+@-webkit-keyframes enemy68 {
+  0% {
+    top: 417px;
+    left: -100px;
+	-webkit-transform: scale(2.81735800015);
+  }
+  100% {
+    top: 171px;
+    left: 1000px;
+	-webkit-transform: scale(2.01341916971);
+  }
+}
+input#enemy68{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy68;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 80s;
+}
+
+
+@-webkit-keyframes enemy69 {
+  0% {
+    top: 429px;
+    left: 1000px;
+  }
+  20% {
+    top: 263px;
+    left: 780px;
+  }
+  40% {
+    top: 429px;
+    left: 560px;
+  }
+  60% {
+    top: 263px;
+    left: 340px;
+  }
+  80% {
+    top: 429px;
+    left: 120px;
+  }
+  100% {
+    top: 263px;
+    left: -100px;
+  }
+}
+input#enemy69{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy69;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 82s;
+}
+
+
+@-webkit-keyframes enemy70 {
+  0% {
+    top: 219px;
+    left: -100px;
+	-webkit-transform: scale(2.63929863174);
+  }
+  100% {
+    top: 597px;
+    left: 1000px;
+	-webkit-transform: scale(2.63228222194);
+  }
+}
+input#enemy70{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy70;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 83s;
+}
+
+
+@-webkit-keyframes enemy71 {
+  0% {
+    top: 442px;
+    left: -100px;
+  }
+  20% {
+    top: 168px;
+    left: 120px;
+  }
+  40% {
+    top: 442px;
+    left: 340px;
+  }
+  60% {
+    top: 168px;
+    left: 560px;
+  }
+  80% {
+    top: 442px;
+    left: 780px;
+  }
+  100% {
+    top: 168px;
+    left: 1000px;
+  }
+}
+input#enemy71{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy71;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 85s;
+}
+
+
+@-webkit-keyframes enemy72 {
+  0% {
+    top: 449.385951359px;
+    left: 554.815669707px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 319.171130125px;
+    left: 604.534138255px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy72{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy72;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 87s;
+}
+
+
+@-webkit-keyframes enemy73 {
+  0% {
+    top: 516px;
+    left: 1000px;
+	-webkit-transform: scale(2.93596943683);
+  }
+  100% {
+    top: 31px;
+    left: -100px;
+	-webkit-transform: scale(2.13936274663);
+  }
+}
+input#enemy73{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy73;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 87s;
+}
+
+
+@-webkit-keyframes enemy74 {
+  0% {
+    top: 570px;
+    left: 1000px;
+  }
+  20% {
+    top: 141px;
+    left: 780px;
+  }
+  40% {
+    top: 570px;
+    left: 560px;
+  }
+  60% {
+    top: 141px;
+    left: 340px;
+  }
+  80% {
+    top: 570px;
+    left: 120px;
+  }
+  100% {
+    top: 141px;
+    left: -100px;
+  }
+}
+input#enemy74{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy74;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 88s;
+}
+
+
+@-webkit-keyframes enemy75 {
+  0% {
+    top: 518px;
+    left: -100px;
+  }
+  20% {
+    top: 274px;
+    left: 120px;
+  }
+  40% {
+    top: 518px;
+    left: 340px;
+  }
+  60% {
+    top: 274px;
+    left: 560px;
+  }
+  80% {
+    top: 518px;
+    left: 780px;
+  }
+  100% {
+    top: 274px;
+    left: 1000px;
+  }
+}
+input#enemy75{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy75;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 89s;
+}
+
+
+@-webkit-keyframes enemy76 {
+  0% {
+    top: 375px;
+    left: -100px;
+  }
+  20% {
+    top: 219px;
+    left: 120px;
+  }
+  40% {
+    top: 375px;
+    left: 340px;
+  }
+  60% {
+    top: 219px;
+    left: 560px;
+  }
+  80% {
+    top: 375px;
+    left: 780px;
+  }
+  100% {
+    top: 219px;
+    left: 1000px;
+  }
+}
+input#enemy76{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy76;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 90s;
+}
+
+
+@-webkit-keyframes enemy77 {
+  0% {
+    top: 22.2405363336px;
+    left: 455.392531587px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 318.097985425px;
+    left: 393.170170189px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy77{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy77;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 92s;
+}
+
+
+@-webkit-keyframes enemy78 {
+  0% {
+    top: 81.0106785815px;
+    left: 208.142582806px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 592.242864009px;
+    left: 478.803195119px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy78{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy78;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 92s;
+}
+
+
+@-webkit-keyframes enemy79 {
+  0% {
+    top: 502px;
+    left: -100px;
+  }
+  20% {
+    top: 296px;
+    left: 120px;
+  }
+  40% {
+    top: 502px;
+    left: 340px;
+  }
+  60% {
+    top: 296px;
+    left: 560px;
+  }
+  80% {
+    top: 502px;
+    left: 780px;
+  }
+  100% {
+    top: 296px;
+    left: 1000px;
+  }
+}
+input#enemy79{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy79;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 92s;
+}
+
+
+@-webkit-keyframes enemy80 {
+  0% {
+    top: 506.730651072px;
+    left: 292.823643111px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 442.197163308px;
+    left: 665.498825545px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy80{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy80;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 94s;
+}
+
+
+@-webkit-keyframes enemy81 {
+  0% {
+    top: 379px;
+    left: 1000px;
+	-webkit-transform: scale(2.69873670862);
+  }
+  100% {
+    top: 251px;
+    left: -100px;
+	-webkit-transform: scale(2.2601734025);
+  }
+}
+input#enemy81{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy81;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 94s;
+}
+
+
+@-webkit-keyframes enemy82 {
+  0% {
+    top: 403.894418572px;
+    left: 636.94093912px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 111.778623584px;
+    left: 152.174646488px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy82{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy82;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 96s;
+}
+
+
+@-webkit-keyframes enemy83 {
+  0% {
+    top: 348px;
+    left: -100px;
+  }
+  20% {
+    top: 237px;
+    left: 120px;
+  }
+  40% {
+    top: 348px;
+    left: 340px;
+  }
+  60% {
+    top: 237px;
+    left: 560px;
+  }
+  80% {
+    top: 348px;
+    left: 780px;
+  }
+  100% {
+    top: 237px;
+    left: 1000px;
+  }
+}
+input#enemy83{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy83;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 96s;
+}
+
+
+@-webkit-keyframes enemy84 {
+  0% {
+    top: 60.2405914308px;
+    left: 458.890114296px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 218.139105146px;
+    left: 316.261712177px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy84{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy84;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 97s;
+}
+
+
+@-webkit-keyframes enemy85 {
+  0% {
+    top: 89px;
+    left: -100px;
+	-webkit-transform: scale(2.48502725445);
+  }
+  100% {
+    top: 34px;
+    left: 1000px;
+	-webkit-transform: scale(2.84960940102);
+  }
+}
+input#enemy85{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy85;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 98s;
+}
+
+
+@-webkit-keyframes enemy86 {
+  0% {
+    top: 439px;
+    left: -100px;
+	-webkit-transform: scale(2.61165210006);
+  }
+  100% {
+    top: 319px;
+    left: 1000px;
+	-webkit-transform: scale(2.62603555405);
+  }
+}
+input#enemy86{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy86;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 100s;
+}
+
+
+@-webkit-keyframes enemy87 {
+  0% {
+    top: 490px;
+    left: 1000px;
+  }
+  20% {
+    top: 94px;
+    left: 780px;
+  }
+  40% {
+    top: 490px;
+    left: 560px;
+  }
+  60% {
+    top: 94px;
+    left: 340px;
+  }
+  80% {
+    top: 490px;
+    left: 120px;
+  }
+  100% {
+    top: 94px;
+    left: -100px;
+  }
+}
+input#enemy87{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy87;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 102s;
+}
+
+
+@-webkit-keyframes enemy88 {
+  0% {
+    top: 564.210110987px;
+    left: 268.478980469px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 240.794451971px;
+    left: 852.903909482px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy88{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy88;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 104s;
+}
+
+
+@-webkit-keyframes enemy89 {
+  0% {
+    top: 353px;
+    left: 1000px;
+	-webkit-transform: scale(2.5805764332);
+  }
+  100% {
+    top: 438px;
+    left: -100px;
+	-webkit-transform: scale(2.20226728269);
+  }
+}
+input#enemy89{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy89;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 105s;
+}
+
+
+@-webkit-keyframes enemy90 {
+  0% {
+    top: 594.364611692px;
+    left: 849.69711317px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 311.985851261px;
+    left: 899.840033565px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy90{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy90;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 106s;
+}
+
+
+@-webkit-keyframes enemy91 {
+  0% {
+    top: 310px;
+    left: 1000px;
+	-webkit-transform: scale(2.82134404715);
+  }
+  100% {
+    top: 365px;
+    left: -100px;
+	-webkit-transform: scale(2.24656282119);
+  }
+}
+input#enemy91{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy91;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 107s;
+}
+
+
+@-webkit-keyframes enemy92 {
+  0% {
+    top: 359px;
+    left: -100px;
+  }
+  20% {
+    top: 199px;
+    left: 120px;
+  }
+  40% {
+    top: 359px;
+    left: 340px;
+  }
+  60% {
+    top: 199px;
+    left: 560px;
+  }
+  80% {
+    top: 359px;
+    left: 780px;
+  }
+  100% {
+    top: 199px;
+    left: 1000px;
+  }
+}
+input#enemy92{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy92;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 109s;
+}
+
+
+@-webkit-keyframes enemy93 {
+  0% {
+    top: 86px;
+    left: 1000px;
+	-webkit-transform: scale(2.69309383295);
+  }
+  100% {
+    top: 425px;
+    left: -100px;
+	-webkit-transform: scale(2.4125939191);
+  }
+}
+input#enemy93{
+	background-image: url('images/cow_left.png');
+	-webkit-animation-name: enemy93;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-delay: 110s;
+}
+
+
+@-webkit-keyframes enemy94 {
+  0% {
+    top: 161.676005408px;
+    left: 754.489763468px;
+	-webkit-transform: scale(0.0);
+  }
+  100% {
+    top: 507.901568188px;
+    left: 709.859150796px;
+	-webkit-transform: scale(4.0);
+  }
+}
+input#enemy94{
+	background-image: url('images/cow_front.png');
+	-webkit-animation-name: enemy94;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 111s;
+}
+
+
+@-webkit-keyframes enemy95 {
+  0% {
+    top: 361.417587548px;
+    left: 95.1573886992px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 177.368514155px;
+    left: 28.1079818225px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy95{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy95;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 112s;
+}
+
+
+@-webkit-keyframes enemy96 {
+  0% {
+    top: 518.931032227px;
+    left: 34.7491728778px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 583.34726253px;
+    left: 784.941667988px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy96{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy96;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 112s;
+}
+
+
+@-webkit-keyframes enemy97 {
+  0% {
+    top: 469.35731602px;
+    left: 300.767122606px;
+	-webkit-transform: scale(4.0);
+  }
+  100% {
+    top: 509.801504785px;
+    left: 101.276151334px;
+	-webkit-transform: scale(0.0);
+  }
+}
+input#enemy97{
+	background-image: url('images/cow_back.png');
+	-webkit-animation-name: enemy97;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 113s;
+}
+
+
+@-webkit-keyframes enemy98 {
+  0% {
+    top: 475px;
+    left: -100px;
+  }
+  20% {
+    top: 145px;
+    left: 120px;
+  }
+  40% {
+    top: 475px;
+    left: 340px;
+  }
+  60% {
+    top: 145px;
+    left: 560px;
+  }
+  80% {
+    top: 475px;
+    left: 780px;
+  }
+  100% {
+    top: 145px;
+    left: 1000px;
+  }
+}
+input#enemy98{
+	background-image: url('images/black_cow_right.png');
+	-webkit-animation-name: enemy98;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 113s;
+}
+
+
+@-webkit-keyframes enemy99 {
+  0% {
+    top: 569px;
+    left: -100px;
+	-webkit-transform: scale(2.99365208622);
+  }
+  100% {
+    top: 571px;
+    left: 1000px;
+	-webkit-transform: scale(2.78489632547);
+  }
+}
+input#enemy99{
+	background-image: url('images/cow_right.png');
+	-webkit-animation-name: enemy99;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 115s;
+}
+
+
+@-webkit-keyframes enemy100 {
+  0% {
+    top: 523px;
+    left: 1000px;
+  }
+  20% {
+    top: 96px;
+    left: 780px;
+  }
+  40% {
+    top: 523px;
+    left: 560px;
+  }
+  60% {
+    top: 96px;
+    left: 340px;
+  }
+  80% {
+    top: 523px;
+    left: 120px;
+  }
+  100% {
+    top: 96px;
+    left: -100px;
+  }
+}
+input#enemy100{
+	background-image: url('images/black_cow_left.png');
+	-webkit-animation-name: enemy100;
+	-webkit-animation-duration: 8s;
+	-webkit-animation-delay: 116s;
+}
+

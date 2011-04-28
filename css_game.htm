@@ -1,0 +1,310 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+	<META http-equiv=content-type content="text/html; charset=UTF-8">
+	<title>CSS Click Shooting Game - No JavaScript -</title>
+	<link href="animation.css" rel="stylesheet" type="text/css">
+<style TYPE="text/css">
+<!--
+.enemy {	
+	position: absolute;
+	top: -200px;
+	left: -200px;
+	width: 64px;
+	height: 48px;
+	-moz-appearance: button;
+	-webkit-appearance: button;
+}
+.enemy:checked{
+	background-image: url('images/item.png')!important;
+	width: 32px;
+	height: 32px;
+	position: static;
+	-webkit-animation-name: none;
+}
+#screen{
+	background-color: #000000;
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('images/field.png');
+}
+#bar{
+	background-color: #ffaaaa;
+	width: 100%;
+	height: 30px;
+	bottom: 0px;
+}
+#counter_outer{
+	position: absolute;
+	bottom: 0px;
+	font-size: 30px;
+	color: #ff0000;
+}
+#counter_text{
+	vertical-align: top;
+}
+#counter{
+	display: inline-block;
+	width: 96px;
+	height: 32px;
+	overflow: hidden;
+}
+#counter_image{
+	background-image: url('images/counter_image.png');
+	display: inline-block;
+	width: 96px;
+	height: 3232px;
+	margin-top: -3232px;
+}
+.space{
+	display: none;
+}
+.space:checked{
+	display: inline-block;
+	width: 96px;
+	height: 32px;
+	margin: 0px;
+	visibility: hidden;
+}
+
+-->
+</style>
+</head>
+<body>
+<form>
+	<div id="screen">
+		<input id="enemy0" name="radio0" class="enemy" type="radio">
+		<input id="enemy1" name="radio1" class="enemy" type="radio">
+		<input id="enemy2" name="radio2" class="enemy" type="radio">
+		<input id="enemy3" name="radio3" class="enemy" type="radio">
+		<input id="enemy4" name="radio4" class="enemy" type="radio">
+		<input id="enemy5" name="radio5" class="enemy" type="radio">
+		<input id="enemy6" name="radio6" class="enemy" type="radio">
+		<input id="enemy7" name="radio7" class="enemy" type="radio">
+		<input id="enemy8" name="radio8" class="enemy" type="radio">
+		<input id="enemy9" name="radio9" class="enemy" type="radio">
+		<input id="enemy10" name="radio10" class="enemy" type="radio">
+		<input id="enemy11" name="radio11" class="enemy" type="radio">
+		<input id="enemy12" name="radio12" class="enemy" type="radio">
+		<input id="enemy13" name="radio13" class="enemy" type="radio">
+		<input id="enemy14" name="radio14" class="enemy" type="radio">
+		<input id="enemy15" name="radio15" class="enemy" type="radio">
+		<input id="enemy16" name="radio16" class="enemy" type="radio">
+		<input id="enemy17" name="radio17" class="enemy" type="radio">
+		<input id="enemy18" name="radio18" class="enemy" type="radio">
+		<input id="enemy19" name="radio19" class="enemy" type="radio">
+		<input id="enemy20" name="radio20" class="enemy" type="radio">
+		<input id="enemy21" name="radio21" class="enemy" type="radio">
+		<input id="enemy22" name="radio22" class="enemy" type="radio">
+		<input id="enemy23" name="radio23" class="enemy" type="radio">
+		<input id="enemy24" name="radio24" class="enemy" type="radio">
+		<input id="enemy25" name="radio25" class="enemy" type="radio">
+		<input id="enemy26" name="radio26" class="enemy" type="radio">
+		<input id="enemy27" name="radio27" class="enemy" type="radio">
+		<input id="enemy28" name="radio28" class="enemy" type="radio">
+		<input id="enemy29" name="radio29" class="enemy" type="radio">
+		<input id="enemy30" name="radio30" class="enemy" type="radio">
+		<input id="enemy31" name="radio31" class="enemy" type="radio">
+		<input id="enemy32" name="radio32" class="enemy" type="radio">
+		<input id="enemy33" name="radio33" class="enemy" type="radio">
+		<input id="enemy34" name="radio34" class="enemy" type="radio">
+		<input id="enemy35" name="radio35" class="enemy" type="radio">
+		<input id="enemy36" name="radio36" class="enemy" type="radio">
+		<input id="enemy37" name="radio37" class="enemy" type="radio">
+		<input id="enemy38" name="radio38" class="enemy" type="radio">
+		<input id="enemy39" name="radio39" class="enemy" type="radio">
+		<input id="enemy40" name="radio40" class="enemy" type="radio">
+		<input id="enemy41" name="radio41" class="enemy" type="radio">
+		<input id="enemy42" name="radio42" class="enemy" type="radio">
+		<input id="enemy43" name="radio43" class="enemy" type="radio">
+		<input id="enemy44" name="radio44" class="enemy" type="radio">
+		<input id="enemy45" name="radio45" class="enemy" type="radio">
+		<input id="enemy46" name="radio46" class="enemy" type="radio">
+		<input id="enemy47" name="radio47" class="enemy" type="radio">
+		<input id="enemy48" name="radio48" class="enemy" type="radio">
+		<input id="enemy49" name="radio49" class="enemy" type="radio">
+		<input id="enemy50" name="radio50" class="enemy" type="radio">
+		<input id="enemy51" name="radio51" class="enemy" type="radio">
+		<input id="enemy52" name="radio52" class="enemy" type="radio">
+		<input id="enemy53" name="radio53" class="enemy" type="radio">
+		<input id="enemy54" name="radio54" class="enemy" type="radio">
+		<input id="enemy55" name="radio55" class="enemy" type="radio">
+		<input id="enemy56" name="radio56" class="enemy" type="radio">
+		<input id="enemy57" name="radio57" class="enemy" type="radio">
+		<input id="enemy58" name="radio58" class="enemy" type="radio">
+		<input id="enemy59" name="radio59" class="enemy" type="radio">
+		<input id="enemy60" name="radio60" class="enemy" type="radio">
+		<input id="enemy61" name="radio61" class="enemy" type="radio">
+		<input id="enemy62" name="radio62" class="enemy" type="radio">
+		<input id="enemy63" name="radio63" class="enemy" type="radio">
+		<input id="enemy64" name="radio64" class="enemy" type="radio">
+		<input id="enemy65" name="radio65" class="enemy" type="radio">
+		<input id="enemy66" name="radio66" class="enemy" type="radio">
+		<input id="enemy67" name="radio67" class="enemy" type="radio">
+		<input id="enemy68" name="radio68" class="enemy" type="radio">
+		<input id="enemy69" name="radio69" class="enemy" type="radio">
+		<input id="enemy70" name="radio70" class="enemy" type="radio">
+		<input id="enemy71" name="radio71" class="enemy" type="radio">
+		<input id="enemy72" name="radio72" class="enemy" type="radio">
+		<input id="enemy73" name="radio73" class="enemy" type="radio">
+		<input id="enemy74" name="radio74" class="enemy" type="radio">
+		<input id="enemy75" name="radio75" class="enemy" type="radio">
+		<input id="enemy76" name="radio76" class="enemy" type="radio">
+		<input id="enemy77" name="radio77" class="enemy" type="radio">
+		<input id="enemy78" name="radio78" class="enemy" type="radio">
+		<input id="enemy79" name="radio79" class="enemy" type="radio">
+		<input id="enemy80" name="radio80" class="enemy" type="radio">
+		<input id="enemy81" name="radio81" class="enemy" type="radio">
+		<input id="enemy82" name="radio82" class="enemy" type="radio">
+		<input id="enemy83" name="radio83" class="enemy" type="radio">
+		<input id="enemy84" name="radio84" class="enemy" type="radio">
+		<input id="enemy85" name="radio85" class="enemy" type="radio">
+		<input id="enemy86" name="radio86" class="enemy" type="radio">
+		<input id="enemy87" name="radio87" class="enemy" type="radio">
+		<input id="enemy88" name="radio88" class="enemy" type="radio">
+		<input id="enemy89" name="radio89" class="enemy" type="radio">
+		<input id="enemy90" name="radio90" class="enemy" type="radio">
+		<input id="enemy91" name="radio91" class="enemy" type="radio">
+		<input id="enemy92" name="radio92" class="enemy" type="radio">
+		<input id="enemy93" name="radio93" class="enemy" type="radio">
+		<input id="enemy94" name="radio94" class="enemy" type="radio">
+		<input id="enemy95" name="radio95" class="enemy" type="radio">
+		<input id="enemy96" name="radio96" class="enemy" type="radio">
+		<input id="enemy97" name="radio97" class="enemy" type="radio">
+		<input id="enemy98" name="radio98" class="enemy" type="radio">
+		<input id="enemy99" name="radio99" class="enemy" type="radio">
+		<input id="enemy100" name="radio100" class="enemy" type="radio">
+		<div id="counter_outer">
+			<span id="counter_text">SCORE:</span> 
+			<div id="counter">
+				<input id="space0" name="radio0" class="space" type="radio" checked>
+				<input id="space1" name="radio1" class="space" type="radio" checked>
+				<input id="space2" name="radio2" class="space" type="radio" checked>
+				<input id="space3" name="radio3" class="space" type="radio" checked>
+				<input id="space4" name="radio4" class="space" type="radio" checked>
+				<input id="space5" name="radio5" class="space" type="radio" checked>
+				<input id="space6" name="radio6" class="space" type="radio" checked>
+				<input id="space7" name="radio7" class="space" type="radio" checked>
+				<input id="space8" name="radio8" class="space" type="radio" checked>
+				<input id="space9" name="radio9" class="space" type="radio" checked>
+				<input id="space10" name="radio10" class="space" type="radio" checked>
+				<input id="space11" name="radio11" class="space" type="radio" checked>
+				<input id="space12" name="radio12" class="space" type="radio" checked>
+				<input id="space13" name="radio13" class="space" type="radio" checked>
+				<input id="space14" name="radio14" class="space" type="radio" checked>
+				<input id="space15" name="radio15" class="space" type="radio" checked>
+				<input id="space16" name="radio16" class="space" type="radio" checked>
+				<input id="space17" name="radio17" class="space" type="radio" checked>
+				<input id="space18" name="radio18" class="space" type="radio" checked>
+				<input id="space19" name="radio19" class="space" type="radio" checked>
+				<input id="space20" name="radio20" class="space" type="radio" checked>
+				<input id="space21" name="radio21" class="space" type="radio" checked>
+				<input id="space22" name="radio22" class="space" type="radio" checked>
+				<input id="space23" name="radio23" class="space" type="radio" checked>
+				<input id="space24" name="radio24" class="space" type="radio" checked>
+				<input id="space25" name="radio25" class="space" type="radio" checked>
+				<input id="space26" name="radio26" class="space" type="radio" checked>
+				<input id="space27" name="radio27" class="space" type="radio" checked>
+				<input id="space28" name="radio28" class="space" type="radio" checked>
+				<input id="space29" name="radio29" class="space" type="radio" checked>
+				<input id="space30" name="radio30" class="space" type="radio" checked>
+				<input id="space31" name="radio31" class="space" type="radio" checked>
+				<input id="space32" name="radio32" class="space" type="radio" checked>
+				<input id="space33" name="radio33" class="space" type="radio" checked>
+				<input id="space34" name="radio34" class="space" type="radio" checked>
+				<input id="space35" name="radio35" class="space" type="radio" checked>
+				<input id="space36" name="radio36" class="space" type="radio" checked>
+				<input id="space37" name="radio37" class="space" type="radio" checked>
+				<input id="space38" name="radio38" class="space" type="radio" checked>
+				<input id="space39" name="radio39" class="space" type="radio" checked>
+				<input id="space40" name="radio40" class="space" type="radio" checked>
+				<input id="space41" name="radio41" class="space" type="radio" checked>
+				<input id="space42" name="radio42" class="space" type="radio" checked>
+				<input id="space43" name="radio43" class="space" type="radio" checked>
+				<input id="space44" name="radio44" class="space" type="radio" checked>
+				<input id="space45" name="radio45" class="space" type="radio" checked>
+				<input id="space46" name="radio46" class="space" type="radio" checked>
+				<input id="space47" name="radio47" class="space" type="radio" checked>
+				<input id="space48" name="radio48" class="space" type="radio" checked>
+				<input id="space49" name="radio49" class="space" type="radio" checked>
+				<input id="space50" name="radio50" class="space" type="radio" checked>
+				<input id="space51" name="radio51" class="space" type="radio" checked>
+				<input id="space52" name="radio52" class="space" type="radio" checked>
+				<input id="space53" name="radio53" class="space" type="radio" checked>
+				<input id="space54" name="radio54" class="space" type="radio" checked>
+				<input id="space55" name="radio55" class="space" type="radio" checked>
+				<input id="space56" name="radio56" class="space" type="radio" checked>
+				<input id="space57" name="radio57" class="space" type="radio" checked>
+				<input id="space58" name="radio58" class="space" type="radio" checked>
+				<input id="space59" name="radio59" class="space" type="radio" checked>
+				<input id="space60" name="radio60" class="space" type="radio" checked>
+				<input id="space61" name="radio61" class="space" type="radio" checked>
+				<input id="space62" name="radio62" class="space" type="radio" checked>
+				<input id="space63" name="radio63" class="space" type="radio" checked>
+				<input id="space64" name="radio64" class="space" type="radio" checked>
+				<input id="space65" name="radio65" class="space" type="radio" checked>
+				<input id="space66" name="radio66" class="space" type="radio" checked>
+				<input id="space67" name="radio67" class="space" type="radio" checked>
+				<input id="space68" name="radio68" class="space" type="radio" checked>
+				<input id="space69" name="radio69" class="space" type="radio" checked>
+				<input id="space70" name="radio70" class="space" type="radio" checked>
+				<input id="space71" name="radio71" class="space" type="radio" checked>
+				<input id="space72" name="radio72" class="space" type="radio" checked>
+				<input id="space73" name="radio73" class="space" type="radio" checked>
+				<input id="space74" name="radio74" class="space" type="radio" checked>
+				<input id="space75" name="radio75" class="space" type="radio" checked>
+				<input id="space76" name="radio76" class="space" type="radio" checked>
+				<input id="space77" name="radio77" class="space" type="radio" checked>
+				<input id="space78" name="radio78" class="space" type="radio" checked>
+				<input id="space79" name="radio79" class="space" type="radio" checked>
+				<input id="space80" name="radio80" class="space" type="radio" checked>
+				<input id="space81" name="radio81" class="space" type="radio" checked>
+				<input id="space82" name="radio82" class="space" type="radio" checked>
+				<input id="space83" name="radio83" class="space" type="radio" checked>
+				<input id="space84" name="radio84" class="space" type="radio" checked>
+				<input id="space85" name="radio85" class="space" type="radio" checked>
+				<input id="space86" name="radio86" class="space" type="radio" checked>
+				<input id="space87" name="radio87" class="space" type="radio" checked>
+				<input id="space88" name="radio88" class="space" type="radio" checked>
+				<input id="space89" name="radio89" class="space" type="radio" checked>
+				<input id="space90" name="radio90" class="space" type="radio" checked>
+				<input id="space91" name="radio91" class="space" type="radio" checked>
+				<input id="space92" name="radio92" class="space" type="radio" checked>
+				<input id="space93" name="radio93" class="space" type="radio" checked>
+				<input id="space94" name="radio94" class="space" type="radio" checked>
+				<input id="space95" name="radio95" class="space" type="radio" checked>
+				<input id="space96" name="radio96" class="space" type="radio" checked>
+				<input id="space97" name="radio97" class="space" type="radio" checked>
+				<input id="space98" name="radio98" class="space" type="radio" checked>
+				<input id="space99" name="radio99" class="space" type="radio" checked>
+				<input id="space100" name="radio100" class="space" type="radio" checked>
+				<div id="counter_image">
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+<div>
+	JavaScriptを使わず、CSSとHTMLで作ったクリックシューティングゲームです。<br>
+	Chrome / Safariの最新版で動きます。IE / Firefoxでは動きません。<br>
+	<br>
+	● 操作方法<br>
+	- 移動する牛をクリックすると捕まえることができ、スコアが増えます。全部で101匹います。<br>
+	- F5で再スタートできます。<br>
+	<br>
+	● 技術的詳細とソースコード<br>
+	- <a href="http://d.hatena.ne.jp/ndruger/20110428/1304021590">http://d.hatena.ne.jp/ndruger/20110428/1304021590</a><br>
+	<br>
+	● コピーライト<br>
+	このソフトの画像は、<a href="http://www.tekepon.net/fsm">REFMAP</a>が配布しているフリー画像素材を加工して使用しています。このソフト内で使用されている画像を、このゲームを遊ぶ以外の用途には使用しないで下さい<br>
+	<br>
+</div>
+<script type="text/javascript" defer src="css_game.js"></script>
+
+</body>
+</html>
+
